@@ -3,10 +3,22 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default function App() {
   const [enteredGoal, setEnteredGoal] = useState('');
+
+// function goalInputHandler(enteredText) {
+  // Changed the function above to and arrow function below.
+const goalInputHandler = (enteredText) => {
+  setEnteredGoal(enteredText);
+}
+
   return (
     <View style={styles.screen}>
       <view stlye={styles.inputContainer}>
-      <TextInput placeholder="Course Goal" style={styles.input} />
+        <TextInput
+          placeholder="Course Goal"
+          style={styles.input} 
+          onChangeText={goalInputHandler}
+          value={enteredGoal}
+        />
       <Button title="ADD" />
       </view>
     </View>
