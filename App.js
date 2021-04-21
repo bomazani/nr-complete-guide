@@ -8,7 +8,11 @@ export default function App() {
   // Changed the function above to and arrow function below.
 const goalInputHandler = (enteredText) => {
   setEnteredGoal(enteredText);
-}
+};
+
+const addGoalHandler = () => {
+  console.log(enteredGoal);
+};
 
   return (
     <View style={styles.screen}>
@@ -19,7 +23,7 @@ const goalInputHandler = (enteredText) => {
           onChangeText={goalInputHandler}
           value={enteredGoal}
         />
-      <Button title="ADD" />
+      <Button title="ADD" onPress={addGoalHandler} />
       </view>
     </View>
   );
