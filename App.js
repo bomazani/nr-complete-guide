@@ -12,7 +12,7 @@ const goalInputHandler = (enteredText) => {
 };
 
 const addGoalHandler = (enteredText) => {
-  setCourseGoals([...courseGoals, enteredGoal]);
+  setCourseGoals([currentGoals => [...currentGoals, enteredGoal]);
 };
 
   return (
