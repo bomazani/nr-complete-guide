@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52e2285-c27c-4dc4-86a5-67f1d03a987f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/rn-complete-guide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rn-complete-guide.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GoalInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/GoalInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GoalItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/GoalItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="179" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618970606353">
+    <state x="179" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619195561478">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="179" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-405.-1055.1920.1055@0.25.1440.875" timestamp="1618970606353" />
+    <state x="179" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-405.-1055.1920.1055@0.25.1440.875" timestamp="1619195561478" />
+    <state x="11" y="50" width="1154" height="728" key="SettingsEditor" timestamp="1619208077318">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="11" y="50" width="1154" height="728" key="SettingsEditor/0.25.1440.875/-405.-1055.1920.1055@0.25.1440.875" timestamp="1619208077318" />
   </component>
 </project>
