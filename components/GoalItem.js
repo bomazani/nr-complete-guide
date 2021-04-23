@@ -9,7 +9,7 @@ const GoalItem = props => {
     )          
 };
 
-const Styles = styleSheet.create ({
+const styles = StyleSheet.create ({
     listItem: {
         padding: 10,
         margin: 10, 

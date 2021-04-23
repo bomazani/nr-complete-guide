@@ -35,4 +35,4 @@ const styles=StyleSheet.create({
     }
     });
 
-export default GoalImport;
+export default GoalInput;
