@@ -38,7 +38,7 @@ export default function App() {
         <GoalInput 
           visible={isAddMode} 
           onAddGoal={ addGoalHandler }
-          onCancel={cancelAddGoalHandler}
+          onCancel={ cancelAddGoalHandler }
         />
           <FlatList 
             keyExtractor={(item, index) => item.id}
@@ -46,7 +46,7 @@ export default function App() {
             renderItem={itemData => (
               <GoalItem 
                 id={itemData.item.id} 
-                onDelete={removeGoalHandler} 
+                onDelete={ removeGoalHandler } 
                 title={itemData.item.value}
               />
             )}
